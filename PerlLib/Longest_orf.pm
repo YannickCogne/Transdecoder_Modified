@@ -43,7 +43,7 @@ sub new {
 				ALLOW_3PRIME_PARTIALS => 0,
 				FORWARD_STRAND => 1,
 				REVERSE_STRAND => 1,
-				ALLOW_NON_MET_STARTS => 0
+				ALLOW_NON_MET_STARTS => 1
 					
 				};
     bless ($obj);
